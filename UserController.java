@@ -15,6 +15,7 @@ import java.util.Map;
 @RestController
 @Slf4j
 public class UserController {
+    private int git;
     // public Map<String, Object> getImage(){
     //     //1.生成验证码
     //     String code = VerifyCodeUtil.generateVerifyCode(4);
